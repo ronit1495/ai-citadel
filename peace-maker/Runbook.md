@@ -8,9 +8,9 @@
 1. **Alert**: `MongoDB connection failed.`
    - **Steps**:
      1. Verify MongoDB connection string and ensure it is correct.
-     2. Check if the MongoDB secrets were rotated recently. Update the credentials in the Peace-Maker configuration accordingly.
+     2. Check if the MongoDB secrets were rotated recently. Update the credentials in the peace-keeper configuration accordingly.
      3. Test the MongoDB connection with the updated credentials.
-     4. Restart the Peace-Maker container to apply the new credentials.
+     4. Restart the peace-keeper container to apply the new credentials.
      5. Monitor the logs to ensure successful connection to MongoDB.
 
 #### Data Retrieval Error
