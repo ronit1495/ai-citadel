@@ -1,6 +1,7 @@
-### Scenario: User Data Sync Error for APAC Region
+### Scenario: User Data Sync Error
 
 **APAC region uses AWS CloudFront.**
+**EMEA region uses Azure Frontdoor.**
 
 ### Runbook for Handling the Errors
 
@@ -30,7 +31,7 @@
      4. Ensure that future invalidation requests can retrieve the necessary data from MongoDB.
 
 #### User Impact Notification
-1. **Alert**: `User data Sync error for APAC region.`
+1. **Alert**: `User data Sync error for any region.`
    - **Steps**:
      1. Communicate with the affected users about the data sync issue and potential impact.
      2. Provide an estimated timeline for resolution and any workaround if available.
